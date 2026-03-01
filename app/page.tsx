@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-
+import Note from "./components/Note"
 export default function Home() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Home() {
         <Projects />
         <About />
         <Contact />
+        <Note />
       </main>
       <Footer />
     </>
